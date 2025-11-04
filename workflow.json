@@ -13,7 +13,7 @@
       "position": [500, 200],
       "type": "a2a/mastra-a2a-node",
       "typeVersion": 1,
-      "url": "https://abc123.ngrok-free.app/a2a/agent/plannerAgent"
+       "url": "https://hng13-stage3-telex-agentapi-keoy.vercel.app/a2a/agent/plannerAgent"
     }
   ],
   "pinData": {},
