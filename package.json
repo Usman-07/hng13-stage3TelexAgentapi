@@ -2,13 +2,16 @@
   "name": "stage3",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Weekly Goal Planner Agent for Telex.im",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@ai-sdk/groq": "^2.0.28",
     "@mastra/core": "^0.23.3",
