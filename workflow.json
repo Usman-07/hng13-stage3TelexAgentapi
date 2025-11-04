@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "category": "productivity",
+  "description": "AI agent that breaks down weekly goals into daily tasks",
+  "id": "goal_planner_v1",
+  "long_description": "You are a productivity assistant that helps users plan their week.\n\nWhen users share weekly goals:\n1. Break them into specific daily tasks\n2. Distribute tasks across the week\n3. Save the plan\n4. Send daily morning reminders\n\nBe encouraging, concise, and actionable.",
+  "name": "Weekly Goal Planner",
+  "nodes": [
+    {
+      "id": "planner_agent_node",
+      "name": "Goal Planner Agent",
+      "parameters": {},
+      "position": [500, 200],
+      "type": "a2a/mastra-a2a-node",
+      "typeVersion": 1,
+      "url": "https://abc123.ngrok-free.app/a2a/agent/plannerAgent"
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "short_description": "Plan your week, get daily reminders"
+}
